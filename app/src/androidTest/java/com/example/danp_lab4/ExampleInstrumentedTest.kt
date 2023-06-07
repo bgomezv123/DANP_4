@@ -1,4 +1,4 @@
-package com.example.danp_lab3
+package com.example.danp_lab4
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

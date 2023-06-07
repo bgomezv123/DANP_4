@@ -1,4 +1,4 @@
-package com.example.danp_lab3
+package com.example.danp_lab4
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -6,8 +6,8 @@ import android.widget.TextView
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.danp_lab3.Data.Country
-import com.example.danp_lab3.R
+import com.example.danp_lab4.Data.Country
+import com.example.danp_lab4.R
 
 class AdapterCountryPaging: PagingDataAdapter<Country, AdapterCountryPaging.CountryItem>(AdapterCountryPaging.DIFF_CALLBACK) {
     inner class CountryItem (v: View) : RecyclerView.ViewHolder(v)

@@ -1,12 +1,10 @@
-package com.example.danp_lab3.Data
+package com.example.danp_lab4.Data
 
 import android.content.Context
 import android.util.Log
-import androidx.lifecycle.lifecycleScope
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.example.danp_lab3.R
-import kotlinx.coroutines.CoroutineScope
+import com.example.danp_lab4.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -17,7 +15,6 @@ import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStream
 import java.io.InputStreamReader
-import java.lang.Exception
 
 class PrepopulateData(private val context: Context) : RoomDatabase.Callback() {
 
